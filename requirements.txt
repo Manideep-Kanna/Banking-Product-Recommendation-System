@@ -1,0 +1,16 @@
+# requirements.txt for Banking Product Recommender
+
+# Core dependencies
+streamlit>=1.32.0  # For the web UI
+numpy>=1.26.4      # For numerical operations and FAISS embeddings
+sqlite3            # Built-in Python library, no need to install separately
+
+# FAISS for vector search (CPU version)
+faiss-cpu>=1.8.0   # Use faiss-gpu if you have GPU support
+
+# LangChain and OpenAI integration
+langchain-openai>=0.1.0  # For ChatOpenAI with GPT-4o
+openai>=1.14.0          # OpenAI API dependency (required by langchain-openai)
+
+# Optional: For development and testing
+python-dotenv>=1.0.1    # To load environment variables from a .env file (optional)
