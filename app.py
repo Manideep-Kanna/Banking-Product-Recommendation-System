@@ -12,8 +12,7 @@ from typing import Dict, List, Optional
 # Configuration
 # -----------------------------
 DB_FILE = "inhouse.db"
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # -----------------------------
 # STEP 1: Initialize SQLite Database
