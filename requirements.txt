@@ -3,7 +3,6 @@
 # Core dependencies
 streamlit>=1.32.0  # For the web UI
 numpy>=1.26.4      # For numerical operations and FAISS embeddings
-sqlite3            # Built-in Python library, no need to install separately
 
 # FAISS for vector search (CPU version)
 faiss-cpu>=1.8.0   # Use faiss-gpu if you have GPU support

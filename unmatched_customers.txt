@@ -1,0 +1,31 @@
+Customer Information for CUST99999
+==================================================
+
+customer_id: CUST99999
+age: 19
+gender: F
+location: Rural Alaska
+occupation: Wildlife Photographer
+income_per_year: 15000
+education: High School
+interests: Wildlife Conservation, Bird Watching, Nature Photography
+preferences: Eco-Friendly Products, Sustainable Living
+transaction_type: Charity Donation
+category: Wildlife Preservation Fund
+amount_usd: 50
+purchase_date: 2024-10-15
+payment_mode: Cash
+platform: Twitter
+content: Post about saving endangered species
+timestamp: 2024-10-16 08:00:00
+sentiment_score: -0.4
+intent: Environmental Advocacy
+industry: None
+revenue_range: None
+employee_count_range: None
+
+Reason for Documentation:
+No banking products found with a relevance score above 50%.
+
+==================================================
+
