@@ -14,3 +14,4 @@ openai>=1.14.0          # OpenAI API dependency (required by langchain-openai)
 # Optional: For development and testing
 python-dotenv>=1.0.1    # To load environment variables from a .env file (optional)
 langchain
+langchain_community
