@@ -13,11 +13,11 @@ from typing import Dict, List, Optional
 # -----------------------------
 DB_FILE = "inhouse.db"
 
-openai_api_key = st.secrets["OPENAI_API_KEY"]
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # Optionally, if a library expects the API key as an environment variable:
 # import os
-os.environ["OPENAI_API_KEY"] = openai_api_key
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # -----------------------------
 # STEP 1: Initialize SQLite Database
