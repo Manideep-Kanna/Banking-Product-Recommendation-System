@@ -12,6 +12,7 @@ from typing import Dict, List, Optional
 # Configuration
 # -----------------------------
 DB_FILE = "inhouse.db"
+
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 # Optionally, if a library expects the API key as an environment variable:
